@@ -1,7 +1,12 @@
 <resources>
-    <string name="app_name">Gla Campus Bin Monitor</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="app_name">UofG Smart Bin Monitor</string>
+    <string name="app_title">UofG Smart Bin Monitor</string>
+    <string name="map_type_normal">Normal</string>
+    <string name="map_type_terrain">Terrain</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="map_type_satellite">Satellite</string>
+    <string name="map_type_hybrid">Hybrid</string>
+    <string name="map_type_none">None</string>
+
+
 </resources>

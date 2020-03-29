@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/customMapFragment">
+
+    <fragment
+        android:id="@+id/customMapFragment"
+        android:name="com.gla.campus.bin.monitor.views.CustomMapFragment"
+        android:label="CustomMapFragment" >
+        <action
+            android:id="@+id/action_customMapFragment_to_placeholder"
+            app:destination="@id/placeholder" />
+    </fragment>
+    <fragment android:id="@+id/placeholder" />
+</navigation>
